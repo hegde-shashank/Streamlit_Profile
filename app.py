@@ -290,9 +290,6 @@ with tabs[3]:
     st.markdown("---")
     st.markdown(f'<div class="ps au d2"><div class="pst">🐛 Pest Detection Using ML on Edge Devices</div><div class="td">ML pest detection on edge for real-time agricultural monitoring.</div><div style="font-family:DM Mono,monospace;font-size:.7rem;margin-top:.4rem"><a href="https://resources.mouser.com/explore-all/pest-detection-using-machine-learning-on-edge-devices" target="_blank" style="color:{AC};text-decoration:none">📄 View on Mouser</a></div></div>',unsafe_allow_html=True)
     slideshow("projects",key="pjs"); st.markdown("---")
-    st.markdown(f'<div class="ps au d3"><div class="pst">🤖 TUM Robotics Club</div><div class="td">Activities, competitions, and collaborative engineering.</div></div>',unsafe_allow_html=True)
-    slideshow("robotics_club",key="rbs")
-    robotics_club_videos=[]
     
 # ══ CONTACT ══
 with tabs[4]:
