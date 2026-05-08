@@ -293,10 +293,7 @@ with tabs[3]:
     st.markdown(f'<div class="ps au d3"><div class="pst">🤖 TUM Robotics Club</div><div class="td">Activities, competitions, and collaborative engineering.</div></div>',unsafe_allow_html=True)
     slideshow("robotics_club",key="rbs")
     robotics_club_videos=[]
-    if robotics_club_videos:
-        for ti,ur in robotics_club_videos: st.markdown(f'<p style="font-weight:600;color:{TX};font-size:.88rem">{ti}</p>',unsafe_allow_html=True); yt(ur)
-    else: st.markdown(f'<div style="background:{BG2};border:1px dashed {BD};border-radius:10px;padding:.7rem;margin-top:.5rem"><p style="color:{T4};font-size:.8rem;margin:0">📹 Add YouTube links to <code>robotics_club_videos</code> in <code>app.py</code>.</p></div>',unsafe_allow_html=True)
-
+    
 # ══ CONTACT ══
 with tabs[4]:
     st.markdown(f'<div class="stitle au">Get in touch</div>',unsafe_allow_html=True)
